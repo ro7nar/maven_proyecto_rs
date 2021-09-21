@@ -7,8 +7,16 @@ public class CursoVacional {
 	private String nombre;
 	private LocalDate fechaInicio;
 	private LocalDate fechaFin;
+	private Instructor instructor;
 	
 	
+	
+	public Instructor getInstructor() {
+		return instructor;
+	}
+	public void setInstructor(Instructor instructor) {
+		this.instructor = instructor;
+	}
 	//Metodos SET y GET
 	public String getNombre() {
 		return nombre;
